@@ -4,7 +4,7 @@ import { View, Text, Pressable } from "react-native";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { router } from "expo-router";
 import CustomButton from "@/components/CustomButton";
-import { TimerContext } from "@/context/timerContext";
+import { TimerContext } from "@/context/TimerContext";
 
 const AdjustMeditationDuration = () => {
   const { setDuration } = useContext(TimerContext);

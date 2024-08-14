@@ -1,4 +1,4 @@
-import TimerProvider from "@/context/timerContext";
+import TimerProvider from "@/context/TimerContext";
 import { useFonts } from "expo-font";
 import { Slot, SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";

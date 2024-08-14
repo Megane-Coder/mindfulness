@@ -24,9 +24,9 @@ const TimerProvider = ({ children }: TimerProviderProps) => {
   const [duration, setDuration] = useState(10);
 
   return (
-    <TimerContext.Provider
-      value={{ duration, setDuration }}
-    ></TimerContext.Provider>
+    <TimerContext.Provider value={{ duration, setDuration }}>
+      {children}
+    </TimerContext.Provider>
   );
 };
 
